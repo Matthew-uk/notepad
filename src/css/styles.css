@@ -1,0 +1,63 @@
+body{
+  background-repeat: none;
+  color: #333;
+  height: fit-content;
+  background: linear-gradient(120deg, rgb(9, 102, 139) 0%, rgb(131, 7, 153)100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+}
+
+.form-control{
+  color: #fff !important;
+  background: transparent !important;
+  box-shadow: rgba(0,0,0,0.25) 6px 5px 15px 4px;
+  border-radius: 12px;
+  border: none;
+}
+
+.form-control:focus{
+  border: #fff!important;
+}
+
+.form-control::placeholder{
+  color: #fff!important;
+}
+
+.navbar{
+  color: aliceblue;
+  box-shadow: #333 2px 2px 15px 7px;
+}
+
+.navbar .form-control{
+  background: rgba(240, 248, 255, 0.798)!important;
+  color: #333!important;
+}
+
+.navbar .form-control::placeholder{
+  color: #333!important;
+  padding-top: 4px;
+  font-size: 13.4px;
+}
+
+.navbar-brand{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.navbar-brand .n{
+  color: rgb(249, 113, 2);
+}
+
+.navbar-brand .o{
+  color: rgba(167, 249, 3, 0.874);
+}
+
+.navbar-brand .t{
+  color: rgba(3, 249, 237, 0.874);
+}
+
+.navbar-brand .e{
+  color: rgba(249, 3, 163, 0.873);
+}
